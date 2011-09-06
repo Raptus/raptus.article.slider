@@ -16,7 +16,7 @@ Dependencies
     * raptus.article.nesting
 
 Optional dependencies
-------------
+---------------------
     * raptus.article.teaser
     * raptus.article.reference
     * raptus.article.additionalwysiwyg
