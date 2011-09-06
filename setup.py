@@ -7,6 +7,7 @@ setup(name='raptus.article.slider',
       version=version,
       description="Provides a component which displays the contained articles in a slider",
       long_description=open("README.txt").read() + "\n" +
+                       open(os.path.join("docs", "MANUAL.txt")).read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -24,6 +25,8 @@ setup(name='raptus.article.slider',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'raptus.article.nesting',
+          'raptus.easyslider',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
