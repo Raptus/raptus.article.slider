@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0a2'
+version = 'Y.dev0'
 
 setup(name='raptus.article.slider',
       version=version,
